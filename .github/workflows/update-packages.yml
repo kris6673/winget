@@ -35,6 +35,12 @@ jobs:
           - id: "ChaosRecipeEnhancer.ChaosRecipeEnhancer"
             repo: "ChaosRecipeEnhancer/ChaosRecipeEnhancer"
             url: "https://github.com/ChaosRecipeEnhancer/ChaosRecipeEnhancer/releases/download/{VERSION}/ChaosRecipeEnhancer-Setup.msi"
+          - id: "magic-wormhole.magic-wormhole"
+            repo: "aquacash5/magic-wormhole-exe"
+            url: "https://github.com/aquacash5/magic-wormhole-exe/releases/download/{VERSION}/wormhole.exe"
+          - id: "VictorIX.BlenderLauncher"
+            repo: "Victor-IX/Blender-Launcher-V2"
+            url: "https://github.com/Victor-IX/Blender-Launcher-V2/releases/download/v{VERSION}/Blender_Launcher_v{VERSION}_Windows_x64.zip"
 
     steps:
       - name: Update Packages
