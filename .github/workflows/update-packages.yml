@@ -56,6 +56,19 @@ jobs:
           - id: "AmanHarwara.Altus"
             repo: "amanharwara/altus"
             url: "https://github.com/amanharwara/altus/releases/download/{VERSION}/Altus-Setup-{VERSION}.exe"
+          - id: "Amulet.Amulet"
+            repo: "ianmaclarty/amulet"
+            url: "https://github.com/ianmaclarty/amulet/releases/download/v{VERSION}/amulet-v{VERSION}-windows.exe"
+          - id: "ast-grep.ast-grep"
+            repo: "ast-grep/ast-grep"
+            url: "https://github.com/ast-grep/ast-grep/releases/download/{VERSION}/app-x86_64-pc-windows-msvc.zip"
+          - id: "aziontech.azion"
+            repo: "aziontech/azion"
+            url: "'https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_386.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_amd64.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_arm64.zip'"
+          - id: "garethgeorge.Backrest"
+            repo: "garethgeorge/backrest"
+            url: "https://github.com/garethgeorge/backrest/releases/download/v{VERSION}/Backrest-setup-x86_64.exe"
+
 
     steps:
       - name: Update Packages
