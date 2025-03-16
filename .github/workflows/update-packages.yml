@@ -68,7 +68,9 @@ jobs:
           - id: "garethgeorge.Backrest"
             repo: "garethgeorge/backrest"
             url: "https://github.com/garethgeorge/backrest/releases/download/v{VERSION}/Backrest-setup-x86_64.exe"
-
+          - id: "DygmaLabs.Bazecor"
+            repo: "Dygmalab/Bazecor"
+            url: "https://github.com/Dygmalab/Bazecor/releases/download/v{VERSION}/Bazecor-{VERSION}-Setup.exe"
 
     steps:
       - name: Update Packages
