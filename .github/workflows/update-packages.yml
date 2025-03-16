@@ -53,6 +53,9 @@ jobs:
           - id: "Kornelski.DSSIM"
             repo: "kornelski/dssim"
             url: "https://github.com/kornelski/dssim/releases/download/{VERSION}/dssim-{VERSION}.zip"
+          - id: "AmanHarwara.Altus"
+            repo: "amanharwara/altus"
+            url: "https://github.com/amanharwara/altus/releases/download/{VERSION}/Altus-Setup-{VERSION}.exe"
 
     steps:
       - name: Update Packages
