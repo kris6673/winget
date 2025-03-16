@@ -53,9 +53,6 @@ jobs:
           - id: "Kornelski.DSSIM"
             repo: "kornelski/dssim"
             url: "https://github.com/kornelski/dssim/releases/download/{VERSION}/dssim-{VERSION}.zip"
-          - id: "oss-winget.dtc"
-            repo: "oss-winget/oss-winget-storage"
-            url: "https://github.com/oss-winget/dtc/releases/download/v{VERSION}/dtc-{VERSION}-win64.exe"
 
     steps:
       - name: Update Packages
