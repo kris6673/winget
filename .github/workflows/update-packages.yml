@@ -47,11 +47,10 @@ jobs:
           - id: "DoltHub.Dolt"
             repo: "dolthub/dolt"
             url: "https://github.com/dolthub/dolt/releases/download/v{VERSION}/dolt-windows-amd64.msi"
-          - id: "Youda008.DoomRunner"
-            repo: "Youda008/DoomRunner"
-            url: 
-              - "https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-32bit-static.zip"
-              - "https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-64bit-static.zip"
+          # - id: "Youda008.DoomRunner"
+            # repo: "Youda008/DoomRunner"
+            # url: "https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-32bit-static.zip, https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-64bit-static.zip"
+          - id: ""
 
     steps:
       - name: Update Packages
