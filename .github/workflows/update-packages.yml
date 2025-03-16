@@ -47,10 +47,15 @@ jobs:
           - id: "DoltHub.Dolt"
             repo: "dolthub/dolt"
             url: "https://github.com/dolthub/dolt/releases/download/v{VERSION}/dolt-windows-amd64.msi"
-          # - id: "Youda008.DoomRunner"
-            # repo: "Youda008/DoomRunner"
-            # url: "https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-32bit-static.zip, https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-64bit-static.zip"
-          # - id: ""
+          - id: "Youda008.DoomRunner"
+            repo: "Youda008/DoomRunner"
+            url: "https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-32bit-static.zip https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-64bit-static.zip"
+          - id: "Kornelski.DSSIM"
+            repo: "kornelski/dssim"
+            url: "https://github.com/kornelski/dssim/releases/download/{VERSION}/dssim-{VERSION}.zip"
+          - id: "oss-winget.dtc"
+            repo: "oss-winget/oss-winget-storage"
+            url: "https://github.com/oss-winget/dtc/releases/download/v{VERSION}/dtc-{VERSION}-win64.exe"
 
     steps:
       - name: Update Packages
