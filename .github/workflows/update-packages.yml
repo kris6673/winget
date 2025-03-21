@@ -74,6 +74,9 @@ jobs:
           - id: "BiglySoftware.BiglyBT"
             repo: "BiglySoftware/BiglyBT"
             url: "'https://github.com/BiglySoftware/BiglyBT/releases/download/v{VERSION}/GitHub_BiglyBT_Installer32.exe https://github.com/BiglySoftware/BiglyBT/releases/download/v{VERSION}/GitHub_BiglyBT_Installer64_WithJava21.exe'"
+          - id: "Martchus.syncthingtray"
+            repo: "Martchus/syncthingtray"
+            url: "'https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-x86_64-w64-mingw32.exe.zip https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-aarch64-w64-mingw32.exe.zip'"
 
     steps:
       - name: Update Packages
