@@ -77,6 +77,18 @@ jobs:
           - id: "Martchus.syncthingtray"
             repo: "Martchus/syncthingtray"
             url: "'https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-x86_64-w64-mingw32.exe.zip https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-aarch64-w64-mingw32.exe.zip'"
+          - id: "WeakAuras.WeakAurasCompanion"
+            repo: "WeakAuras/WeakAuras-Companion"
+            url: "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v{VERSION}/WeakAuras-Companion-Setup-{VERSION}.exe"
+          - id: "JaydenDev.Catalyst"
+            repo: "CatalystDevOrg/Catalyst"
+            url: "https://github.com/CatalystDevOrg/Catalyst/releases/download/v{VERSION}/catalyst-Setup-{VERSION}.exe"
+          - id: "CycloneDX.cdxgen"
+            repo: "CycloneDX/cdxgen"
+            url: "https://github.com/CycloneDX/cdxgen/releases/download/v{VERSION}/cdxgen.exe"
+          - id: "dune3d.dune3d"
+            repo: "dune3d/dune3d"
+            url: "https://github.com/dune3d/dune3d/releases/download/v{VERSION}/dune3d-{VERSION}-x64.msi"
 
     steps:
       - name: Update Packages
