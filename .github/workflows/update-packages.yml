@@ -89,6 +89,9 @@ jobs:
           - id: "dune3d.dune3d"
             repo: "dune3d/dune3d"
             url: "https://github.com/dune3d/dune3d/releases/download/v{VERSION}/dune3d-{VERSION}-x64.msi"
+          - id: "LinuxContainers.Incus"
+            repo: "lxc/incus"
+            url: "https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.x86_64.exe https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.aarch64.exe"
 
     steps:
       - name: Update Packages
