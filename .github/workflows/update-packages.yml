@@ -98,6 +98,9 @@ jobs:
           - id: "Livebook.Livebook"
             repo: "livebook-dev/livebook"
             url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/LivebookInstall-windows-x86_64.exe"
+          - id: "zarunbal.LogExpert"
+            repo: "LogExperts/LogExpert"
+            url: "https://github.com/LogExperts/LogExpert/releases/download/v{VERSION}/LogExpert-{VERSION}.zip"
 
     steps:
       - name: Update Packages
