@@ -95,6 +95,9 @@ jobs:
           - id: "LibreCAD.LibreCAD"
             repo: "LibreCAD/LibreCAD"
             url: "'https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}.exe'"
+          - id: "Livebook.Livebook"
+            repo: "livebook-dev/livebook"
+            url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/LivebookInstall-windows-x86_64.exe"
 
     steps:
       - name: Update Packages
