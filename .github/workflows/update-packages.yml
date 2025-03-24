@@ -92,6 +92,9 @@ jobs:
           - id: "LinuxContainers.Incus"
             repo: "lxc/incus"
             url: "'https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.x86_64.exe https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.aarch64.exe'"
+          - id: "LibreCAD.LibreCAD"
+            repo: "LibreCAD/LibreCAD"
+            url: "'https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}.exe'"
 
     steps:
       - name: Update Packages
