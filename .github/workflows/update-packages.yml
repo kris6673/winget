@@ -110,6 +110,9 @@ jobs:
           - id: "MullvadVPN.MullvadVPN"
             repo: "mullvad/mullvadvpn-app"
             url: "https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}.exe"
+          - id: "LuaLS.lua-language-server"
+            repo: "LuaLS/lua-language-server"
+            url: "'https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-ia32.zip https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-x64.zip'"
 
     steps:
       - name: Update Packages
