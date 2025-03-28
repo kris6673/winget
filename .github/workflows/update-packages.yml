@@ -107,6 +107,9 @@ jobs:
           - id: "kubescape.kubescape"
             repo: "kubescape/kubescape"
             url: "'https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-arm64-windows-latest.exe https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-arm64-windows-latest.exe'"
+          - id: "MullvadVPN.MullvadVPN"
+            repo: "mullvad/mullvadvpn-app"
+            url: "https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}.exe"
 
     steps:
       - name: Update Packages
