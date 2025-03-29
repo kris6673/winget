@@ -119,6 +119,9 @@ jobs:
           - id: "okteto.okteto"
             repo: "okteto/okteto"
             url: "https://github.com/okteto/okteto/releases/download/{VERSION}/okteto.exe"
+          - id: "Sidero.omnictl"
+            repo: "siderolabs/omni"
+            url: "https://github.com/siderolabs/omni/releases/download/v{VERSION}/omnictl-windows-amd64.exe"
 
 
     steps:
