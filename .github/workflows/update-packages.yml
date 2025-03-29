@@ -122,6 +122,9 @@ jobs:
           - id: "Sidero.omnictl"
             repo: "siderolabs/omni"
             url: "https://github.com/siderolabs/omni/releases/download/v{VERSION}/omnictl-windows-amd64.exe"
+          - id: "XmirrorSecurity.OpenSCA-cli"
+            repo: "XmirrorSecurity/OpenSCA-cli"
+            url: "https://github.com/XmirrorSecurity/OpenSCA-cli/releases/download/v{VERSION}/opensca-cli-v{VERSION}-windows-amd64.zip"
 
 
     steps:
