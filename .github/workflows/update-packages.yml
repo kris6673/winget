@@ -109,7 +109,7 @@ jobs:
             url: "'https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-amd64-windows-latest.exe https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-arm64-windows-latest.exe'"
           - id: "MullvadVPN.MullvadVPN"
             repo: "mullvad/mullvadvpn-app"
-            url: "https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_x64.exe https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_arm64.exe"
+            url: "'https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_x64.exe https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_arm64.exe'"
           - id: "LuaLS.lua-language-server"
             repo: "LuaLS/lua-language-server"
             url: "'https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-ia32.zip https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-x64.zip'"
