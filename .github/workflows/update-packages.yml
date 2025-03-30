@@ -134,6 +134,9 @@ jobs:
           - id: "undergroundwires.privacy.sexy"
             repo: "undergroundwires/privacy.sexy"
             url: "https://github.com/undergroundwires/privacy.sexy/releases/download/{VERSION}/privacy.sexy-Setup-{VERSION}.exe"
+          - id: "pbek.QOwnNotes"
+            repo: "pbek/QOwnNotes"
+            url: "https://github.com/pbek/QOwnNotes/releases/download/v{VERSION}/QOwnNotes.zip"
 
 
     steps:
