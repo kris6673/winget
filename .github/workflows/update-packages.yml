@@ -137,9 +137,6 @@ jobs:
           - id: "pbek.QOwnNotes"
             repo: "pbek/QOwnNotes"
             url: "https://github.com/pbek/QOwnNotes/releases/download/v{VERSION}/QOwnNotes.zip"
-          - id: "Barry-ran.QtScrcpy"
-            repo: "barry-ran/QtScrcpy"
-            url: "'https://github.com/barry-ran/QtScrcpy/releases/download/v{VERSION}/QtScrcpy-win-x64-v{VERSION}.zip https://github.com/barry-ran/QtScrcpy/releases/download/v{VERSION}/QtScrcpy-win-x86-v{VERSION}.zip'"
 
 
     steps:
