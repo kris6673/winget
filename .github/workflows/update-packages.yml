@@ -134,7 +134,9 @@ jobs:
           - id: "pbek.QOwnNotes"
             repo: "pbek/QOwnNotes"
             url: "https://github.com/pbek/QOwnNotes/releases/download/v{VERSION}/QOwnNotes.zip"
-
+          - id: "DavidRios.Remindr"
+            repo: "MrDavidRios/remindr"
+            url: "https://github.com/MrDavidRios/remindr/releases/download/v{VERSION}/Remindr-Setup-{VERSION}.exe"
 
     steps:
       - name: Update Packages
