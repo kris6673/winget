@@ -46,7 +46,7 @@ jobs:
             url: "https://github.com/dolthub/dolt/releases/download/v{VERSION}/dolt-windows-amd64.msi"
           - id: "Youda008.DoomRunner"
             repo: "Youda008/DoomRunner"
-            url: "'https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-legacy-32bit-static.zip https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-recent-64bit-static.zip'"
+            url: '"https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-legacy-32bit-static.zip https://github.com/Youda008/DoomRunner/releases/download/v{VERSION}/DoomRunner-{VERSION}-Windows-recent-64bit-static.zip"'
           - id: "Kornelski.DSSIM"
             repo: "kornelski/dssim"
             url: "https://github.com/kornelski/dssim/releases/download/{VERSION}/dssim-{VERSION}.zip"
@@ -61,7 +61,7 @@ jobs:
             url: "https://github.com/ast-grep/ast-grep/releases/download/{VERSION}/app-x86_64-pc-windows-msvc.zip"
           - id: "aziontech.azion"
             repo: "aziontech/azion"
-            url: "'https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_386.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_amd64.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_arm64.zip'"
+            url: '"https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_386.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_amd64.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_arm64.zip"'
           - id: "garethgeorge.Backrest"
             repo: "garethgeorge/backrest"
             url: "https://github.com/garethgeorge/backrest/releases/download/v{VERSION}/Backrest-setup-x86_64.exe"
@@ -73,7 +73,7 @@ jobs:
             url: "'https://github.com/BiglySoftware/BiglyBT/releases/download/v{VERSION}/GitHub_BiglyBT_Installer32.exe https://github.com/BiglySoftware/BiglyBT/releases/download/v{VERSION}/GitHub_BiglyBT_Installer64_WithJava21.exe'"
           - id: "Martchus.syncthingtray"
             repo: "Martchus/syncthingtray"
-            url: "'https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-x86_64-w64-mingw32.exe.zip https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-aarch64-w64-mingw32.exe.zip'"
+            url: '"https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-x86_64-w64-mingw32.exe.zip https://github.com/Martchus/syncthingtray/releases/download/v{VERSION}/syncthingtray-{VERSION}-aarch64-w64-mingw32.exe.zip"'
           - id: "WeakAuras.WeakAurasCompanion"
             repo: "WeakAuras/WeakAuras-Companion"
             url: "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v{VERSION}/WeakAuras-Companion-Setup-{VERSION}.exe"
@@ -88,10 +88,10 @@ jobs:
             url: "https://github.com/dune3d/dune3d/releases/download/v{VERSION}/dune3d-{VERSION}-x64.msi"
           - id: "LinuxContainers.Incus"
             repo: "lxc/incus"
-            url: "'https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.x86_64.exe https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.aarch64.exe'"
+            url: '"https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.x86_64.exe https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.aarch64.exe"'
           - id: "LibreCAD.LibreCAD"
             repo: "LibreCAD/LibreCAD"
-            url: "'https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}.exe'"
+            url: '"https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}.exe"'
           - id: "Livebook.Livebook"
             repo: "livebook-dev/livebook"
             url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/LivebookInstall-windows-x86_64.exe"
@@ -100,16 +100,16 @@ jobs:
             url: "https://github.com/LogExperts/LogExpert/releases/download/v{VERSION}/LogExpert-{VERSION}.zip"
           - id: "int128.kubelogin"
             repo: "int128/kubelogin"
-            url: "'https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_amd64.zip https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_arm64.zip'"
+            url: '"https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_amd64.zip https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_arm64.zip"'
           - id: "kubescape.kubescape"
             repo: "kubescape/kubescape"
-            url: "'https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-amd64-windows-latest.exe https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-arm64-windows-latest.exe'"
+            url: '"https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-amd64-windows-latest.exe https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-arm64-windows-latest.exe"'
           - id: "MullvadVPN.MullvadVPN"
             repo: "mullvad/mullvadvpn-app"
-            url: "'https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_x64.exe https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_arm64.exe'"
+            url: '"https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_x64.exe https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_arm64.exe"'
           - id: "LuaLS.lua-language-server"
             repo: "LuaLS/lua-language-server"
-            url: "'https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-ia32.zip https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-x64.zip'"
+            url: '"https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-ia32.zip https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-x64.zip"'
           - id: "Odamex.Odamex"
             repo: "odamex/odamex"
             url: "https://github.com/odamex/odamex/releases/download/{VERSION}/odamex-win-{VERSION}.exe"
