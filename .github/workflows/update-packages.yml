@@ -140,6 +140,9 @@ jobs:
           - id: "SatDump.SatDump"
             repo: "SatDump/SatDump"
             url: "'https://github.com/SatDump/SatDump/releases/download/{VERSION}/SatDump-Windows_arm64_Installer.exe https://github.com/SatDump/SatDump/releases/download/{VERSION}/SatDump-Windows_x64_Installer.exe'"
+          - id: "sbt.sbt"
+            repo: "sbt/sbt"
+            url: "https://github.com/sbt/sbt/releases/download/v{VERSION}/sbt-{VERSION}.msi"
 
     steps:
       - name: Update Packages
