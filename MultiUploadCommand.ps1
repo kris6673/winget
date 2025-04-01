@@ -1,11 +1,11 @@
 ﻿$Versions = @(
-    '0.6.00'
-    '0.6.01'
+    '2.5.2'
+    '2.5.1'
+
 )
-$PackageName = 'LightBurnSoftware.LightBurn'
+$PackageName = 'SBCL.SBCL'
 
 foreach ($Version in $Versions) {
-    
-    $DownloadUrl = 'https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v{0}/LightBurn-v{0}.exe' -f $Version
-    komac update $PackageName -v $Version -u $DownloadUrl --submit --dry-run
+    $DownloadUrl = 'https://sourceforge.net/projects/sbcl/files/sbcl/{0}/sbcl-{0}-x86-64-windows-binary.msi/download' -f $Version
+    komac update $PackageName -v $Version -u $DownloadUrl --submit
 }
