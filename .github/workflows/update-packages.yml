@@ -137,6 +137,9 @@ jobs:
           - id: "DavidRios.Remindr"
             repo: "MrDavidRios/remindr"
             url: "https://github.com/MrDavidRios/remindr/releases/download/v{VERSION}/Remindr-Setup-{VERSION}.exe"
+          - id: "SatDump.SatDump"
+            repo: "SatDump/SatDump"
+            url: "'https://github.com/SatDump/SatDump/releases/download/{VERSION}/SatDump-Windows_arm64_Installer.exe https://github.com/SatDump/SatDump/releases/download/{VERSION}/SatDump-Windows_x64_Installer.exe'"
 
     steps:
       - name: Update Packages
