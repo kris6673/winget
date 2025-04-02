@@ -148,7 +148,7 @@ jobs:
             url: "https://github.com/5rahim/seanime/releases/download/v2.7.5/seanime-desktop-2.7.5_Windows_x86_64.exe"
           - id: "Automattic.Simplenote"
             repo: "Automattic/simplenote-electron"
-            url: '"https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-ia32.appx https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-x64.appx https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}.exe https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}.exe"'
+            url: '"https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-ia32.exe https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-x64.exe"'
 
     steps:
       - name: Update Packages
