@@ -149,6 +149,9 @@ jobs:
           - id: "Automattic.Simplenote"
             repo: "Automattic/simplenote-electron"
             url: '"https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-ia32.exe https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-x64.exe"'
+          - id: "DCSS.DungeonCrawlStoneSoup"
+            repo: "crawl/crawl"
+            url: "https://github.com/crawl/crawl/releases/download/{VERSION}/dcss-{VERSION}-win32-installer.exe"
 
     steps:
       - name: Update Packages
