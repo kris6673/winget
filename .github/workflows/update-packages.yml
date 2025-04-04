@@ -152,6 +152,9 @@ jobs:
           - id: "DCSS.DungeonCrawlStoneSoup"
             repo: "crawl/crawl"
             url: "https://github.com/crawl/crawl/releases/download/{VERSION}/dcss-{VERSION}-win32-installer.exe"
+          - id: "dbrgn.tealdeer"
+            repo: "tealdeer-rs/tealdeer"
+            url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{VERSION}/tealdeer-windows-x86_64-msvc.exe"
 
     steps:
       - name: Update Packages
