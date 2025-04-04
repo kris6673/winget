@@ -158,7 +158,9 @@ jobs:
           - id: "alexpasmantier.television"
             repo: "alexpasmantier/television"
             url: "https://github.com/alexpasmantier/television/releases/download/{VERSION}/tv-{VERSION}-x86_64-pc-windows-msvc.zip"
-
+          - id: "TermoraDev.Termora"
+            repo: "TermoraDev/termora"
+            url: '"https://github.com/TermoraDev/termora/releases/download/{VERSION}/termora-{VERSION}-windows-x86-64.exe https://github.com/TermoraDev/termora/releases/download/{VERSION}/termora-{VERSION}-windows-aarch64.exe"'
 
     steps:
       - name: Update Packages
