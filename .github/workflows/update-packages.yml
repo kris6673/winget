@@ -155,6 +155,10 @@ jobs:
           - id: "dbrgn.tealdeer"
             repo: "tealdeer-rs/tealdeer"
             url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{VERSION}/tealdeer-windows-x86_64-msvc.exe"
+          - id: "alexpasmantier.television"
+            repo: "alexpasmantier/television"
+            url: "https://github.com/alexpasmantier/television/releases/download/{VERSION}/tv-{VERSION}-x86_64-pc-windows-msvc.zip"
+
 
     steps:
       - name: Update Packages
