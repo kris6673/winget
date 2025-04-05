@@ -167,7 +167,9 @@ jobs:
           - id: "Uncrustify.Uncrustify"
             repo: "Uncrustify/uncrustify"
             url: '"https://github.com/uncrustify/uncrustify/releases/download/uncrustify-{VERSION}/uncrustify-{VERSION}_f-win64.zip https://github.com/uncrustify/uncrustify/releases/download/uncrustify-{VERSION}/uncrustify-{VERSION}_f-win32.zip"'
-
+          - id: "krzys-h.UndertaleModTool"
+            repo: "UnderminersTeam/UndertaleModTool"
+            url: "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/{VERSION}/UndertaleModTool_v{VERSION}-Windows.zip"
 
     steps:
       - name: Update Packages
