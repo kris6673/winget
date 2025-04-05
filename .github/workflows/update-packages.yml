@@ -164,6 +164,9 @@ jobs:
           - id: "Tribler.Tribler"
             repo: "Tribler/tribler"
             url: '"https://github.com/Tribler/tribler/releases/download/v{VERSION}/Tribler_{VERSION}_x64.exe https://github.com/Tribler/tribler/releases/download/v{VERSION}/Tribler_{VERSION}_x86.exe"'
+          - id: "Uncrustify.Uncrustify"
+            repo: "Uncrustify/uncrustify"
+            url: '"https://github.com/uncrustify/uncrustify/releases/download/uncrustify-{VERSION}/uncrustify-{VERSION}_f-win64.zip https://github.com/uncrustify/uncrustify/releases/download/uncrustify-{VERSION}/uncrustify-{VERSION}_f-win32.zip"'
 
 
     steps:
