@@ -176,6 +176,9 @@ jobs:
           - id: "GiantPinkRobots.Varia"
             repo: "giantpinkrobots/varia"
             url: "https://github.com/giantpinkrobots/varia/releases/download/v{VERSION}/varia-windows-setup-amd64.exe"
+          - id: "marha.VcXsrv"
+            repo: "marchaesen/vcxsrv"
+            url: "https://github.com/marchaesen/vcxsrv/releases/download/{VERSION}/vcxsrv-64.{VERSION}.installer.exe"
           
 
     steps:
