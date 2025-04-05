@@ -170,6 +170,10 @@ jobs:
           - id: "krzys-h.UndertaleModTool"
             repo: "UnderminersTeam/UndertaleModTool"
             url: "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/{VERSION}/UndertaleModTool_v{VERSION}-Windows.zip"
+          - id: "UniversalMediaServer.UniversalMediaServer"
+            repo: "UniversalMediaServer/UniversalMediaServer"
+            url: "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/{VERSION}/UMS-Windows-{VERSION}-x86_64.exe"
+          
 
     steps:
       - name: Update Packages
