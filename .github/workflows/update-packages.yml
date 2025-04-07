@@ -125,7 +125,7 @@ jobs:
           - id: "osquery.osquery"
             repo: "osquery/osquery"
             url: "https://github.com/osquery/osquery/releases/download/{VERSION}/osquery-{VERSION}.msi"
-          - id: "MichaelDiCarlo.PostyBirb"
+          - id: "MichaelDiCarlo.PostyBirb+"
             repo: "mvdicarlo/postybirb-plus"
             url: "https://github.com/mvdicarlo/postybirb-plus/releases/download/v{VERSION}/postybirb-plus-setup-{VERSION}.exe"
           - id: "undergroundwires.privacy.sexy"
