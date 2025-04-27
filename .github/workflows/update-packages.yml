@@ -185,6 +185,9 @@ jobs:
           - id: "MurkyYT.CSAuto"
             repo: "MurkyYT/CSAuto"
             url: "https://github.com/MurkyYT/CSAuto/releases/download/{VERSION}/CSAuto_Installer.exe"
+          - id: "GAM-Team.gam"
+            repo: "GAM-team/gam"
+            url: '"https://github.com/GAM-team/GAM/releases/download/v{VERSION}/gam-{VERSION}-windows-x86_64.msi https://github.com/GAM-team/GAM/releases/download/v{VERSION}/gam-{VERSION}-windows-arm64.msi"'
 
 
     steps:
