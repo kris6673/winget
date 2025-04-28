@@ -188,6 +188,9 @@ jobs:
           - id: "GAM-Team.gam"
             repo: "GAM-team/gam"
             url: '"https://github.com/GAM-team/GAM/releases/download/v{VERSION}/gam-{VERSION}-windows-x86_64.msi https://github.com/GAM-team/GAM/releases/download/v{VERSION}/gam-{VERSION}-windows-arm64.msi"'
+          - id: "TobySuggate.GitFiend"
+            repo: "GitFiend/Support"
+            url: "https://github.com/GitFiend/Support/releases/download/v{VERSION}/GitFiend.Setup.{VERSION}.exe"
 
 
     steps:
