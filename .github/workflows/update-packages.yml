@@ -194,6 +194,9 @@ jobs:
           - id: "MrMarble.yoink"
             repo: "MrMarble/yoink"
             url: "https://github.com/MrMarble/yoink/releases/download/v{VERSION}/yoink_windows_amd64.zip"
+          - id: "TabbyML.Tabby"
+            repo: "TabbyML/tabby"
+            url: "https://github.com/TabbyML/tabby/releases/download/v{VERSION}/tabby_x86_64-windows-msvc-cuda124.zip"
 
 
     steps:
