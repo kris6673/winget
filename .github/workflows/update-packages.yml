@@ -191,6 +191,9 @@ jobs:
           - id: "TobySuggate.GitFiend"
             repo: "GitFiend/Support"
             url: "https://github.com/GitFiend/Support/releases/download/v{VERSION}/GitFiend.Setup.{VERSION}.exe"
+          - id: "MrMarble.yoink"
+            repo: "MrMarble/yoink"
+            url: "https://github.com/MrMarble/yoink/releases/download/v{VERSION}/yoink_windows_amd64.zip"
 
 
     steps:
