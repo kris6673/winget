@@ -197,6 +197,9 @@ jobs:
           - id: "TabbyML.Tabby"
             repo: "TabbyML/tabby"
             url: "https://github.com/TabbyML/tabby/releases/download/v{VERSION}/tabby_x86_64-windows-msvc-cuda124.zip"
+          - id: "hasherezade.PE-bear"
+            repo: "hasherezade/pe-bear"
+            url: "https://github.com/hasherezade/pe-bear/releases/download/v{VERSION}/PE-bear_{VERSION}_qt5_x64_win_vs19.zip"
 
 
     steps:
