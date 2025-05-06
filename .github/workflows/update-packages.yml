@@ -200,6 +200,9 @@ jobs:
           - id: "hasherezade.PE-bear"
             repo: "hasherezade/pe-bear"
             url: "https://github.com/hasherezade/pe-bear/releases/download/v{VERSION}/PE-bear_{VERSION}_qt5_x64_win_vs19.zip"
+          - id: "Google.Perfetto"
+            repo: "google/perfetto"
+            url: "https://github.com/google/perfetto/releases/download/v{VERSION}/windows-amd64.zip"
 
 
     steps:
