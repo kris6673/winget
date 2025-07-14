@@ -97,7 +97,7 @@ jobs:
             url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/LivebookInstall-windows-x86_64.exe"
           - id: "zarunbal.LogExpert"
             repo: "LogExperts/LogExpert"
-            url: "https://github.com/LogExperts/LogExpert/releases/download/v{VERSION}/LogExpert.{VERSION}.zip"
+            url: "https://github.com/LogExperts/LogExpert/releases/download/v{VERSION}/LogExpert{VERSION}.zip"
           - id: "int128.kubelogin"
             repo: "int128/kubelogin"
             url: '"https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_amd64.zip https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_arm64.zip"'
