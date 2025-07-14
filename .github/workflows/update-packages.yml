@@ -203,7 +203,9 @@ jobs:
           - id: "PioneerDevelopers.Pioneer"
             repo: "pioneerspacesim/pioneer" 
             url: "https://github.com/pioneerspacesim/pioneer/releases/download/{VERSION}/pioneer-{VERSION}-win.exe"
-
+          - id: "GraylogInc.GraylogSidecar"
+            repo: "Graylog2/collector-sidecar"
+            url: "https://github.com/Graylog2/collector-sidecar/releases/download/{VERSION}/graylog-sidecar-{VERSION}-1.msi"
 
     steps:
       - name: Update Packages
