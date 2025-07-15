@@ -206,6 +206,9 @@ jobs:
           - id: "GraylogInc.GraylogSidecar"
             repo: "Graylog2/collector-sidecar"
             url: "https://github.com/Graylog2/collector-sidecar/releases/download/{VERSION}/graylog-sidecar-{VERSION}-1.msi"
+          - id: "Ninja-build.Ninja"
+            repo: "ninja-build/ninja"
+            url: '"https://github.com/ninja-build/ninja/releases/download/v{VERSION}/ninja-win.zip https://github.com/ninja-build/ninja/releases/download/v{VERSION}/ninja-winarm64.zip"'
 
     steps:
       - name: Update Packages
