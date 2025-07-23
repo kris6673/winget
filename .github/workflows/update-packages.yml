@@ -110,9 +110,6 @@ jobs:
           - id: "LuaLS.lua-language-server"
             repo: "LuaLS/lua-language-server"
             url: '"https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-ia32.zip https://github.com/LuaLS/lua-language-server/releases/download/{VERSION}/lua-language-server-{VERSION}-win32-x64.zip"'
-          - id: "Odamex.Odamex"
-            repo: "odamex/odamex"
-            url: "https://github.com/odamex/odamex/releases/download/{VERSION}/odamex-win-{VERSION}.exe"
           - id: "okteto.okteto"
             repo: "okteto/okteto"
             url: "https://github.com/okteto/okteto/releases/download/{VERSION}/okteto.exe"
