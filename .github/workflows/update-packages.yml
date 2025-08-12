@@ -175,7 +175,7 @@ jobs:
             url: "https://github.com/marchaesen/vcxsrv/releases/download/{VERSION}/vcxsrv-64.{VERSION}.installer.exe"
           - id: "sdercolin.vlabeler"
             repo: "sdercolin/vlabeler"
-            url: "https://github.com/sdercolin/vlabeler/releases/download/v{VERSION}/vlabeler-{VERSION}-win64.zip"
+            url: "https://github.com/sdercolin/vlabeler/releases/download/{VERSION}/vlabeler-{VERSION}-win64.zip"
           - id: "MurkyYT.CSAuto"
             repo: "MurkyYT/CSAuto"
             url: "https://github.com/MurkyYT/CSAuto/releases/download/{VERSION}/CSAuto_Installer.exe"
