@@ -160,7 +160,7 @@ jobs:
             url: '"https://github.com/TermoraDev/termora/releases/download/{VERSION}/termora-{VERSION}-windows-x86-64.exe https://github.com/TermoraDev/termora/releases/download/{VERSION}/termora-{VERSION}-windows-aarch64.exe"'
           - id: "Tribler.Tribler"
             repo: "Tribler/tribler"
-            url: '"https://github.com/Tribler/tribler/releases/download/v{VERSION}/Tribler_{VERSION}_x64.exe https://github.com/Tribler/tribler/releases/download/v{VERSION}/Tribler_{VERSION}_x86.exe"'
+            url: "https://github.com/Tribler/tribler/releases/download/v{VERSION}/Tribler_{VERSION}_x64.exe"
           - id: "krzys-h.UndertaleModTool"
             repo: "UnderminersTeam/UndertaleModTool"
             url: "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/{VERSION}/UndertaleModTool_v{VERSION}-Windows.zip"
