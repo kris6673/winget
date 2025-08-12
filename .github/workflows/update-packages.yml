@@ -82,7 +82,7 @@ jobs:
             url: "https://github.com/CatalystDevOrg/Catalyst/releases/download/v{VERSION}/catalyst-Setup-{VERSION}.exe"
           - id: "CycloneDX.cdxgen"
             repo: "CycloneDX/cdxgen"
-            url: "https://github.com/CycloneDX/cdxgen/releases/download/v{VERSION}/cdxgen.exe"
+            url: '"https://github.com/CycloneDX/cdxgen/releases/download/v{VERSION}/cdxgen-windows-arm64.exe https://github.com/CycloneDX/cdxgen/releases/download/v{VERSION}/cdxgen-windows-amd64.exe"'
           - id: "dune3d.dune3d"
             repo: "dune3d/dune3d"
             url: "https://github.com/dune3d/dune3d/releases/download/v{VERSION}/dune3d-{VERSION}-x64.msi"
