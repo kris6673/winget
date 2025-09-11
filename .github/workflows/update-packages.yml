@@ -64,7 +64,7 @@ jobs:
             url: '"https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_386.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_amd64.zip https://github.com/aziontech/azion/releases/download/{VERSION}/azion_{VERSION}_windows_arm64.zip"'
           - id: "garethgeorge.Backrest"
             repo: "garethgeorge/backrest"
-            url: "https://github.com/garethgeorge/backrest/releases/download/v{VERSION}/Backrest-setup-x86_64.exe"
+            url: "https://github.com/garethgeorge/backrest/releases/download/v{VERSION}/BackrestSetup-x86_64.exe"
           - id: "DygmaLabs.Bazecor"
             repo: "Dygmalab/Bazecor"
             url: "https://github.com/Dygmalab/Bazecor/releases/download/v{VERSION}/Bazecor-{VERSION}-Setup.exe"
