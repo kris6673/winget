@@ -142,7 +142,7 @@ jobs:
             url: "https://github.com/sbt/sbt/releases/download/v{VERSION}/sbt-{VERSION}.msi"
           - id: "5rahim.Seanime"
             repo: "5rahim/seanime"
-            url: "https://github.com/5rahim/seanime/releases/download/v{VERSION}/seanime-desktop-{VERSION}_Windows_x86_64.exe"
+            url: "https://github.com/5rahim/seanime/releases/download/v{VERSION}/seanime-denshi-{VERSION}_Windows_x64.exe "
           - id: "Automattic.Simplenote"
             repo: "Automattic/simplenote-electron"
             url: '"https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-ia32.exe https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-x64.exe"'
