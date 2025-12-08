@@ -77,7 +77,7 @@ jobs:
           - id: "WeakAuras.WeakAurasCompanion"
             repo: "WeakAuras/WeakAuras-Companion"
             url: "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v{VERSION}/WeakAuras-Companion-Setup-{VERSION}.exe"
-          - id: "JaydenDev.Catalyst"
+          - id: "CatalystDevOrg.CatalystBrowser"
             repo: "CatalystDevOrg/Catalyst"
             url: "https://github.com/CatalystDevOrg/Catalyst/releases/download/v{VERSION}/catalyst-Setup-{VERSION}.exe"
           - id: "CycloneDX.cdxgen"
