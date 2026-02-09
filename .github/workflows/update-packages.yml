@@ -298,8 +298,25 @@ jobs:
             url: "https://github.com/amitmerchant1990/electron-markdownify/releases/download/v{VERSION}/Markdownify-{VERSION}.exe"
           - id: "AmneziaVPN.AmneziaVPN"
             repo: "amnezia-vpn/amnezia-client"
-            url: "https://github.com/amnezia-vpn/amnezia-client/releases/download/{VERSION}/AmneziaVPN_{VERSION}_windows_x64.exe"
-
+            url: "https://github.com/amnezia-vpn/amnezia-client/releases/download/{VERSION}/AmneziaVPN_{VERSION}_x64.exe"
+          - id: "amrdeveloper.gitql"
+            repo: "AmrDeveloper/GQL"
+            url: '"https://github.com/AmrDeveloper/GQL/releases/download/{VERSION}/gql-x86-windows.exe https://github.com/AmrDeveloper/GQL/releases/download/{VERSION}/gql-x86_64-windows.exe"'
+          - id: "Amulet.Amulet"
+            repo: "ianmaclarty/amulet"
+            url: "https://github.com/ianmaclarty/amulet/releases/download/v{VERSION}/amulet-v{VERSION}-windows.exe"
+          - id: "Anakin-bb8.NPTE"
+            repo: "Anakin-bb8/Nuitka-GUI-NPTE"
+            url: "https://github.com/Anakin-bb8/Nuitka-GUI-NPTE/releases/download/NPTE{VERSION}/NPTESetup{VERSION}.exe"
+          - id: "anatawa12.ALCOM"
+            repo: "vrc-get/vrc-get"
+            url: "https://github.com/vrc-get/vrc-get/releases/download/gui-v{VERSION}/ALCOM-{VERSION}-x86_64-setup.exe"
+          - id: "Anchor.cli"
+            repo: "anchordotdev/cli"
+            url: '"https://github.com/anchordotdev/cli/releases/download/v{VERSION}/msi-builder-x86.msi https://github.com/anchordotdev/cli/releases/download/v{VERSION}/msi-builder-x64.msi"'
+          - id: "AndreaMarucci.HD2Arsenal"
+            repo: "Orbit-Studios/hd2arsenal-release"
+            url: "https://github.com/Orbit-Studios/hd2arsenal-release/releases/download/v{VERSION}/HD2Arsenal-Setup-{VERSION}.exe"
 
 
 
