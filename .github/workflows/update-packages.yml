@@ -103,7 +103,7 @@ jobs:
             url: '"https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_amd64.zip https://github.com/int128/kubelogin/releases/download/v{VERSION}/kubelogin_windows_arm64.zip"'
           - id: "kubescape.kubescape"
             repo: "kubescape/kubescape"
-            url: '"https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-windows-latest.exe https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape-arm64-windows-latest.exe"'
+            url: '"https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape_{VERSION}_windows_amd64.exe https://github.com/kubescape/kubescape/releases/download/v{VERSION}/kubescape_{VERSION}_windows_arm64.exe"'
           # - id: "MullvadVPN.MullvadVPN"
           #   repo: "mullvad/mullvadvpn-app"
           #   url: '"https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_x64.exe https://github.com/mullvad/mullvadvpn-app/releases/download/{VERSION}/MullvadVPN-{VERSION}_arm64.exe"'
