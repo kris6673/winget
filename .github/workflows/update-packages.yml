@@ -8,7 +8,7 @@ on:
 jobs:
   update:
     name: Update package ${{ matrix.id }}
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
@@ -209,6 +209,60 @@ jobs:
           - id: "GarboMuffin.TurboWarp"
             repo: "TurboWarp/desktop"
             url: '"https://github.com/TurboWarp/desktop/releases/download/v{VERSION}/TurboWarp-Setup-{VERSION}-ia32.exe https://github.com/TurboWarp/desktop/releases/download/v{VERSION}/TurboWarp-Setup-{VERSION}-x64.exe https://github.com/TurboWarp/desktop/releases/download/v{VERSION}/TurboWarp-Setup-{VERSION}-arm64.exe"'
+          - id: "15722UsefulApp.WorkspaceLauncherForVSCode"
+            repo: "tanchekwei/VisualStudioCodeForCommandPalette"
+            url: "https://github.com/tanchekwei/VisualStudioCodeForCommandPalette/releases/download/v{VERSION}/15722UsefulApp.WorkspaceLauncherforVSCode_{VERSION}_x64__s4b834ss2syh6.Msix"
+          - id: "3ll3d00d.beqdesigner"
+            repo: "3ll3d00d/beqdesigner"
+            url: '"https://github.com/3ll3d00d/beqdesigner/releases/download/{VERSION}/beqdesigner_2022Server.exe https://github.com/3ll3d00d/beqdesigner/releases/download/{VERSION}/beqdesigner_2022Server.exe"'
+          - id: "5mdt.WinGoDarkTray"
+            repo: "5mdt/WinGoDarkTray"
+            url: '"https://github.com/5mdt/WinGoDarkTray/releases/download/v{VERSION}/WinGoDarkTray-x64.exe https://github.com/5mdt/WinGoDarkTray/releases/download/v{VERSION}/WinGoDarkTray-x32.exe"'
+          - id: "7gxycn08.PyAutoActions"
+            repo: "7gxycn08/PyAutoActions"
+            url: "https://github.com/7gxycn08/PyAutoActions/releases/download/v{VERSION}/PyAutoActions-win64-setup.exe"
+          - id: "AbdelrahmanBayoumi.Azkar"
+            repo: "AbdelrahmanBayoumi/Azkar-App"
+            url: "https://github.com/AbdelrahmanBayoumi/Azkar-App/releases/download/{VERSION}/Azkar_windows-x32.exe"
+          - id: "abrignoni.ALEAPP"
+            repo: "abrignoni/ALEAPP"
+            url: "https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/aleapp-v{VERSION}-Windows.zip"
+          - id: "abrignoni.ALEAPP-cli"
+            repo: "abrignoni/ALEAPP"
+            url: "https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/aleapp-v{VERSION}-Windows.zip"
+          - id: "abrignoni.iLEAPP"
+            repo: "abrignoni/iLEAPP"
+            url: "https://github.com/abrignoni/iLEAPP/releases/download/v{VERSION}/ileappGUI-v{VERSION}-Windows.zip"
+          - id: "abrignoni.iLEAPP-cli"
+            repo: "abrignoni/iLEAPP"
+            url: "https://github.com/abrignoni/iLEAPP/releases/download/v{VERSION}/ileapp-v{VERSION}-Windows.zip"
+          - id: "acaudwell.Gource"
+            repo: "acaudwell/Gource"
+            url: '"https://github.com/acaudwell/Gource/releases/download/gource-{VERSION}/gource-{VERSION}.win64-setup.exe https://github.com/acaudwell/Gource/releases/download/gource-{VERSION}/gource-{VERSION}.win64-setup.exe"'
+          - id: "ActualBudget.ActualBudget"
+            repo: "actualbudget/actual"
+            url: '"https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-x64.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-ia32.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-arm64.exe"'
+          - id: "Adamant.Messenger"
+            repo: "Adamant-im/adamant-im"
+            url: "https://github.com/Adamant-im/adamant-im/releases/download/v{VERSION}/ADAMANT-Messenger-Setup-{VERSION}.exe"
+          - id: "advancedfx.HLAE"
+            repo: "advancedfx/advancedfx"
+            url: "https://github.com/advancedfx/advancedfx/releases/download/v{VERSION}/HLAE_Setup.exe"
+          - id: "aelassas.Servy"
+            repo: "aelassas/servy"
+            url: "https://github.com/aelassas/servy/releases/download/v{VERSION}/servy-{VERSION}-x64-installer.exe"
+          - id: "agateau.PixelWheels"
+            repo: "agateau/pixelwheels"
+            url: "https://github.com/agateau/pixelwheels/releases/download/{VERSION}/pixelwheels-{VERSION}-windows64.zip"
+          - id: "Ahoy.Ahoy"
+            repo: "ahoy-cli/ahoy"
+            url: '"https://github.com/ahoy-cli/ahoy/releases/download/v{VERSION}/ahoy-bin-windows-amd64.exe https://github.com/ahoy-cli/ahoy/releases/download/v{VERSION}/ahoy-bin-windows-arm64.exe"'
+          - id: "alagrede.znote"
+            repo: "alagrede/znote-app"
+            url: "https://github.com/alagrede/znote-app/releases/download/v{VERSION}/znote-Setup-{VERSION}.exe"
+
+
+
 
     steps:
       - name: Update Packages
@@ -223,7 +277,7 @@ jobs:
   cleanup:
     name: Cleanup branches
     # needs: update # Not necessarily needed as PRs don't get closed that quick but still nice to have it in order
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     steps:
       - name: Run Komac
