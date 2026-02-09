@@ -317,7 +317,9 @@ jobs:
           - id: "AndreaMarucci.HD2Arsenal"
             repo: "Orbit-Studios/hd2arsenal-release"
             url: "https://github.com/Orbit-Studios/hd2arsenal-release/releases/download/v{VERSION}/HD2Arsenal-Setup-{VERSION}.exe"
-
+          - id: "angryziber.AngryIPScanner"
+            repo: "angryip/ipscan"
+            url: '"https://github.com/angryip/ipscan/releases/download/{VERSION}/ipscan-{VERSION}-setup.exe https://github.com/angryip/ipscan/releases/download/{VERSION}/ipscan-win64-{VERSION}.exe"'
 
 
 
