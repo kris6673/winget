@@ -206,6 +206,9 @@ jobs:
           - id: "Ninja-build.Ninja"
             repo: "ninja-build/ninja"
             url: '"https://github.com/ninja-build/ninja/releases/download/v{VERSION}/ninja-win.zip https://github.com/ninja-build/ninja/releases/download/v{VERSION}/ninja-winarm64.zip"'
+          - id: "GarboMuffin.TurboWarp"
+            repo: "TurboWarp/desktop"
+            url: '"https://github.com/TurboWarp/desktop/releases/download/v{VERSION}/TurboWarp-Setup-{VERSION}-ia32.exe https://github.com/TurboWarp/desktop/releases/download/v{VERSION}/TurboWarp-Setup-{VERSION}-x64.exe https://github.com/TurboWarp/desktop/releases/download/v{VERSION}/TurboWarp-Setup-{VERSION}-arm64.exe"'
 
     steps:
       - name: Update Packages
