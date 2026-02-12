@@ -233,9 +233,6 @@ jobs:
           - id: "abrignoni.iLEAPP-cli"
             repo: "abrignoni/iLEAPP"
             url: "https://github.com/abrignoni/iLEAPP/releases/download/v{VERSION}/ileapp-v{VERSION}-Windows.zip"
-          - id: "acaudwell.Gource"
-            repo: "acaudwell/Gource"
-            url: '"https://github.com/acaudwell/Gource/releases/download/gource-{VERSION}/gource-{VERSION}.win64-setup.exe https://github.com/acaudwell/Gource/releases/download/gource-{VERSION}/gource-{VERSION}.win64-setup.exe"'
           - id: "ActualBudget.ActualBudget"
             repo: "actualbudget/actual"
             url: '"https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-x64.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-ia32.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-arm64.exe"'
@@ -268,10 +265,10 @@ jobs:
             url: "https://github.com/AlDanial/cloc/releases/download/v{VERSION}/cloc-{VERSION}.exe"
           - id: "Alex313031.Thorium"
             repo: "Alex313031/Thorium-Win"
-            url: '"https://github.com/Alex313031/Thorium-Win/releases/download/M{VERSION}/thorium_SSE3_mini_installer.exe https://github.com/Alex313031/Thorium-Win/releases/download/M{VERSION}/thorium_SSE3_mini_installer.exe"'
+            url: '"https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_SSE3_mini_installer.exe https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_SSE3_mini_installer.exe"'
           - id: "Alex313031.Thorium.AVX2"
             repo: "Alex313031/Thorium-Win"
-            url: '"https://github.com/Alex313031/Thorium-Win/releases/download/M{VERSION}/thorium_AVX2_mini_installer.exe https://github.com/Alex313031/Thorium-Win/releases/download/M{VERSION}/thorium_AVX2_mini_installer.exe"'
+            url: '"https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_AVX2_mini_installer.exe https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_AVX2_mini_installer.exe"'
           - id: "AlexanderPro.SmartSystemMenu"
             repo: "AlexanderPro/SmartSystemMenu"
             url: "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v{VERSION}/SmartSystemMenu_v{VERSION}.zip"
@@ -299,12 +296,6 @@ jobs:
           - id: "Amulet.Amulet"
             repo: "ianmaclarty/amulet"
             url: "https://github.com/ianmaclarty/amulet/releases/download/v{VERSION}/amulet-v{VERSION}-windows.exe"
-          - id: "Anakin-bb8.NPTE"
-            repo: "Anakin-bb8/Nuitka-GUI-NPTE"
-            url: "https://github.com/Anakin-bb8/Nuitka-GUI-NPTE/releases/download/NPTE{VERSION}/NPTESetup{VERSION}.exe"
-          - id: "anatawa12.ALCOM"
-            repo: "vrc-get/vrc-get"
-            url: "https://github.com/vrc-get/vrc-get/releases/download/gui-v{VERSION}/ALCOM-{VERSION}-x86_64-setup.exe"
           - id: "Anchor.cli"
             repo: "anchordotdev/cli"
             url: '"https://github.com/anchordotdev/cli/releases/download/v{VERSION}/msi-builder-x86.msi https://github.com/anchordotdev/cli/releases/download/v{VERSION}/msi-builder-x64.msi"'
