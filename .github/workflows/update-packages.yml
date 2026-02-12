@@ -263,12 +263,6 @@ jobs:
           - id: "AlDanial.Cloc"
             repo: "AlDanial/cloc"
             url: "https://github.com/AlDanial/cloc/releases/download/v{VERSION}/cloc-{VERSION}.exe"
-          - id: "Alex313031.Thorium"
-            repo: "Alex313031/Thorium-Win"
-            url: '"https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_SSE3_mini_installer.exe https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_SSE3_mini_installer.exe"'
-          - id: "Alex313031.Thorium.AVX2"
-            repo: "Alex313031/Thorium-Win"
-            url: '"https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_AVX2_mini_installer.exe https://github.com/Alex313031/Thorium-Win/releases/download/{VERSION}/thorium_AVX2_mini_installer.exe"'
           - id: "AlexanderPro.SmartSystemMenu"
             repo: "AlexanderPro/SmartSystemMenu"
             url: "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v{VERSION}/SmartSystemMenu_v{VERSION}.zip"
