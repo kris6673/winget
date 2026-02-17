@@ -293,6 +293,9 @@ jobs:
           - id: "angryziber.AngryIPScanner"
             repo: "angryip/ipscan"
             url: '"https://github.com/angryip/ipscan/releases/download/{VERSION}/ipscan-{VERSION}-setup.exe https://github.com/angryip/ipscan/releases/download/{VERSION}/ipscan-win64-{VERSION}.exe"'
+          - id: "surge-downloader.surge"
+            repo: "surge-downloader/surge"
+            url: '"https://github.com/surge-downloader/Surge/releases/download/v{VERSION}/Surge_{VERSION}_windows_386.zip https://github.com/surge-downloader/Surge/releases/download/v{VERSION}/Surge_{VERSION}_windows_amd64.zip https://github.com/surge-downloader/Surge/releases/download/v{VERSION}/Surge_{VERSION}_windows_arm64.zip"'
 
 
 
