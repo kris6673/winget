@@ -296,7 +296,9 @@ jobs:
           - id: "surge-downloader.surge"
             repo: "surge-downloader/surge"
             url: '"https://github.com/surge-downloader/Surge/releases/download/v{VERSION}/Surge_{VERSION}_windows_386.zip https://github.com/surge-downloader/Surge/releases/download/v{VERSION}/Surge_{VERSION}_windows_amd64.zip https://github.com/surge-downloader/Surge/releases/download/v{VERSION}/Surge_{VERSION}_windows_arm64.zip"'
-
+          - id: "Stoat.Stoat"
+            repo: "stoatchat/for-desktop"
+            url: "https://github.com/stoatchat/for-desktop/releases/download/v{VERSION}/stoat-desktop-setup.exe"
 
 
     steps:
