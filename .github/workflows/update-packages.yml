@@ -34,7 +34,7 @@ jobs:
             url: "https://github.com/TeraTermProject/teraterm/releases/download/v{VERSION}/teraterm-{VERSION}.exe"
           - id: "ChaosRecipeEnhancer.ChaosRecipeEnhancer"
             repo: "ChaosRecipeEnhancer/ChaosRecipeEnhancer"
-            url: "https://github.com/ChaosRecipeEnhancer/ChaosRecipeEnhancer/releases/download/{VERSION}/ChaosRecipeEnhancer-Setup.msi"
+            url: "https://github.com/ChaosRecipeEnhancer/ChaosRecipeEnhancer/releases/download/{VERSION}/ChaosRecipeEnhancer-win-Setup.exe"
           - id: "magic-wormhole.magic-wormhole"
             repo: "aquacash5/magic-wormhole-exe"
             url: "https://github.com/aquacash5/magic-wormhole-exe/releases/download/{VERSION}/wormhole.exe"
