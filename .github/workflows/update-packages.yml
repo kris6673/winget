@@ -94,7 +94,7 @@ jobs:
             url: '"https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}.exe"'
           - id: "Livebook.Livebook"
             repo: "livebook-dev/livebook"
-            url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/LivebookInstall-windows-x86_64.exe"
+            url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/Livebook-windows-x64.exe"
           - id: "zarunbal.LogExpert"
             repo: "LogExperts/LogExpert"
             url: "https://github.com/LogExperts/LogExpert/releases/download/v{VERSION}/LogExpert.{VERSION}.zip"
