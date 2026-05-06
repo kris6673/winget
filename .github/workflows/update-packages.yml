@@ -91,7 +91,7 @@ jobs:
             url: '"https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.x86_64.exe https://github.com/lxc/incus/releases/download/v{VERSION}/bin.windows.incus.aarch64.exe"'
           - id: "LibreCAD.LibreCAD"
             repo: "LibreCAD/LibreCAD"
-            url: '"https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}.exe"'
+            url: '"https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-win64-msvc.exe https://github.com/LibreCAD/LibreCAD/releases/download/v{VERSION}/LibreCAD-v{VERSION}-msvc.exe"'
           - id: "Livebook.Livebook"
             repo: "livebook-dev/livebook"
             url: "https://github.com/livebook-dev/livebook/releases/download/v{VERSION}/Livebook-windows-x64.exe"
