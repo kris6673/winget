@@ -227,12 +227,6 @@ jobs:
           - id: "abrignoni.ALEAPP-cli"
             repo: "abrignoni/ALEAPP"
             url: "https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/aleapp-v{VERSION}-Windows_x64.zip"
-          - id: "abrignoni.iLEAPP"
-            repo: "abrignoni/iLEAPP"
-            url: "https://github.com/abrignoni/iLEAPP/releases/download/v{VERSION}/ileappGUI-v{VERSION}-Windows_x64.zip"
-          - id: "abrignoni.iLEAPP-cli"
-            repo: "abrignoni/iLEAPP"
-            url: "https://github.com/abrignoni/iLEAPP/releases/download/v{VERSION}/ileapp-v{VERSION}-Windows_x64.zip"
           - id: "ActualBudget.ActualBudget"
             repo: "actualbudget/actual"
             url: '"https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-x64.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-ia32.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-arm64.exe"'
