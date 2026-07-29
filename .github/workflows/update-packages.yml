@@ -271,7 +271,7 @@ jobs:
             url: "https://github.com/amacneil/dbmate/releases/download/v{VERSION}/dbmate-windows-amd64.exe"
           - id: "AmneziaVPN.AmneziaVPN"
             repo: "amnezia-vpn/amnezia-client"
-            url: "https://github.com/amnezia-vpn/amnezia-client/releases/download/{VERSION}/AmneziaVPN_{VERSION}_x64.exe"
+            url: "https://github.com/amnezia-vpn/amnezia-client/releases/download/{VERSION}/AmneziaVPN_{VERSION}_windows_x64.exe"
           - id: "amrdeveloper.gitql"
             repo: "AmrDeveloper/GQL"
             url: '"https://github.com/AmrDeveloper/GQL/releases/download/{VERSION}/gql-x86-windows.exe https://github.com/AmrDeveloper/GQL/releases/download/{VERSION}/gql-x86_64-windows.exe"'
