@@ -6,8 +6,21 @@ on:
     - cron: "0 */4 * * *" # Scheduled to run every 4 hours
 
 jobs:
+  sync:
+    name: Sync fork
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run Komac
+        uses: michidk/run-komac@latest
+        with:
+          komac-version: "latest"
+          args: "sync-fork --token=${{ secrets.KOMAC_TOKEN }}"
+
   update:
     name: Update package ${{ matrix.id }}
+    needs: sync
+    if: ${{ !cancelled() }} # Run even if the sync fails; a slightly stale fork usually still works
     runs-on: ubuntu-latest
 
     strategy:
@@ -142,7 +155,7 @@ jobs:
             url: "https://github.com/sbt/sbt/releases/download/v{VERSION}/sbt-{VERSION}.msi"
           - id: "5rahim.Seanime"
             repo: "5rahim/seanime"
-            url: "https://github.com/5rahim/seanime/releases/download/v{VERSION}/seanime-denshi-{VERSION}_Windows_x64.exe "
+            url: "https://github.com/5rahim/seanime/releases/download/v{VERSION}/seanime-denshi-{VERSION}_Windows_x64.exe"
           - id: "Automattic.Simplenote"
             repo: "Automattic/simplenote-electron"
             url: '"https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-ia32.exe https://github.com/Automattic/simplenote-electron/releases/download/v{VERSION}/Simplenote-win-{VERSION}-x64.exe"'
@@ -214,7 +227,7 @@ jobs:
             url: "https://github.com/tanchekwei/VisualStudioCodeForCommandPalette/releases/download/v{VERSION}/15722UsefulApp.WorkspaceLauncherforVSCode_{VERSION}_x64__s4b834ss2syh6.Msix"
           - id: "3ll3d00d.beqdesigner"
             repo: "3ll3d00d/beqdesigner"
-            url: '"https://github.com/3ll3d00d/beqdesigner/releases/download/{VERSION}/beqdesigner_2022Server.exe https://github.com/3ll3d00d/beqdesigner/releases/download/{VERSION}/beqdesigner_2022Server.exe"'
+            url: "https://github.com/3ll3d00d/beqdesigner/releases/download/{VERSION}/beqdesigner_2022Server.exe"
           - id: "5mdt.WinGoDarkTray"
             repo: "5mdt/WinGoDarkTray"
             url: '"https://github.com/5mdt/WinGoDarkTray/releases/download/v{VERSION}/WinGoDarkTray-x64.exe https://github.com/5mdt/WinGoDarkTray/releases/download/v{VERSION}/WinGoDarkTray-x32.exe"'
@@ -275,9 +288,6 @@ jobs:
           - id: "amrdeveloper.gitql"
             repo: "AmrDeveloper/GQL"
             url: '"https://github.com/AmrDeveloper/GQL/releases/download/{VERSION}/gql-x86-windows.exe https://github.com/AmrDeveloper/GQL/releases/download/{VERSION}/gql-x86_64-windows.exe"'
-          - id: "Amulet.Amulet"
-            repo: "ianmaclarty/amulet"
-            url: "https://github.com/ianmaclarty/amulet/releases/download/v{VERSION}/amulet-v{VERSION}-windows.exe"
           - id: "Anchor.cli"
             repo: "anchordotdev/cli"
             url: '"https://github.com/anchordotdev/cli/releases/download/v{VERSION}/msi-builder-x86.msi https://github.com/anchordotdev/cli/releases/download/v{VERSION}/msi-builder-x64.msi"'
