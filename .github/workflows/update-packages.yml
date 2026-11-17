@@ -32,7 +32,7 @@ jobs:
             url: "https://github.com/RPGLogs/Uploaders-warcraftlogs/releases/download/v{VERSION}/warcraftlogs-v{VERSION}.exe"
           - id: "ossia.score"
             repo: "ossia/score"
-            url: "https://github.com/ossia/score/releases/download/v{VERSION}/ossia.score-{VERSION}-win64.exe"
+            url: '"https://github.com/ossia/score/releases/download/v{VERSION}/ossia.score-{VERSION}-x86_64.exe https://github.com/ossia/score/releases/download/v{VERSION}/ossia.score-{VERSION}-aarch64.exe"'
           - id: "Hydrogen-Music.Hydrogen"
             repo: "Hydrogen-Music/hydrogen"
             url: "https://github.com/hydrogen-music/hydrogen/releases/download/{VERSION}/Hydrogen-{VERSION}-win64.exe"
@@ -236,10 +236,10 @@ jobs:
             url: "https://github.com/AbdelrahmanBayoumi/Azkar-App/releases/download/{VERSION}/Azkar_windows-x32.exe"
           - id: "abrignoni.ALEAPP"
             repo: "abrignoni/ALEAPP"
-            url: "https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/aleapp-v{VERSION}-Windows_x86_64.zip"
+            url: '"https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/ALEAPP-{VERSION}-windows-x64-portable.zip https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/ALEAPP-{VERSION}-windows-arm64-portable.zip"'
           - id: "abrignoni.ALEAPP-cli"
             repo: "abrignoni/ALEAPP"
-            url: "https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/aleapp-v{VERSION}-Windows_x86_64.zip"
+            url: '"https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/ALEAPP-{VERSION}-windows-x64-portable.zip https://github.com/abrignoni/ALEAPP/releases/download/v{VERSION}/ALEAPP-{VERSION}-windows-arm64-portable.zip"'
           - id: "ActualBudget.ActualBudget"
             repo: "actualbudget/actual"
             url: '"https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-x64.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-ia32.exe https://github.com/actualbudget/actual/releases/download/v{VERSION}/Actual-windows-arm64.exe"'
